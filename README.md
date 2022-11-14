@@ -8,7 +8,7 @@ npm install
 ```
 Edit `config-example.js` file and rename it to `config.js`, run:
 ```
-node index.js
+npm start
 ```
 # Deploy on Heroku
 Google yourself :)
