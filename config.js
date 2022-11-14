@@ -1,6 +1,6 @@
 module.exports = {
     TOKEN: "",
-    ownerID: "559979358404608001",
+    ownerID: "",
     botInvite: "https://discord.com/api/oauth2/authorize?client_id=1007587908712149102&permissions=277028603984&scope=bot%20applications.commands", //write your discord bot invite.
     status: 'Tú hát',
     commandsDir: './commands', //Please don't touch
