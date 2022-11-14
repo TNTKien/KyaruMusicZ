@@ -37,7 +37,6 @@ module.exports = {
     embed.setDescription(`${maxTracks.map((track, i) => `\`${i + 1}\`. [${track.title}](${track.url})\nThời lượng: \`${track.duration}\``).join('\n')}\n\nHãy chọn ID bài muốn phát \`(1-${maxTracks.length})\`, bạn có \`30s\` nhé!`);
 
     embed.setTimestamp();
-    embed//.setFooter({ text: `Code Share - by Umut Bayraktar ❤️` })
 
     interaction.editReply({ embeds: [embed] }).catch(e => { })
 

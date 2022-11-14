@@ -13,7 +13,7 @@ module.exports = {
             .setColor('007fff')
             .setTitle(client.user.username)
             .setThumbnail(client.user.displayAvatarURL())
-            .setDescription("Code ăn cắp trên Github về rồi sửa thành của mình <:tu:918158175713259562>\nAi cũng muốn ăn cắp thì xem tại [đây](https://github.com/TNTKien/KyaruMusic)")
+            .setDescription("Code ăn cắp trên Github về rồi sửa thành của mình <:tu:918158175713259562>\nAi cũng muốn ăn cắp thì xem tại [đây](https://github.com/TNTKien/KyaruMusicZ)")
             .addFields([
                 { name: `Các lệnh hiện có:`, value: commands.map(x => `\`/${x.name}\``).join(' | ') }
             ])

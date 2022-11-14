@@ -34,7 +34,7 @@ module.exports = {
             embed.addFields({ name: 'Thời lượng:', value: `${progress} (**${timestamp.progress}**%)`, inline: false })
 
         embed.setTimestamp();
-        //embed//.setFooter({ text: `Code Share - by Umut Bayraktar ❤️` })
+       
 
         const saveButton = new ButtonBuilder();
         saveButton.setLabel('Save Song');

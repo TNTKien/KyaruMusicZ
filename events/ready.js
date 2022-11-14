@@ -17,6 +17,6 @@ module.exports = async (client) => {
 
     console.log(client.user.username + " successfully connected.");
     client.user.setStatus('ONLINE');
-    //client.user.setActivity(config.status)
+    client.user.setActivity(config.status)
 
 }

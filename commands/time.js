@@ -28,7 +28,6 @@ module.exports = {
             .setThumbnail(queue.current.thumbnail)
             .setTimestamp()
             .setDescription(`${progress} (**${timestamp.progress}**%)`)
-            //.setFooter({ text: `Code Share - by Umut Bayraktar ❤️` })
         interaction.reply({ embeds: [embed], components: [row] }).catch(e => { })
     },
 };
